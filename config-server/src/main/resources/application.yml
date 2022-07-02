@@ -3,10 +3,10 @@ server:
 spring:
   application:
     name: 'config-server'
-  profiles:
-    active: native
+
   cloud:
     config:
       server:
-        native:
-          search-locations: C:/projetos/server-config/ms-alura
+        git:
+          uri: https://github.com/GabrielCPDev/floricultura-config
+          search-paths: fornecedor
