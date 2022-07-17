@@ -15,7 +15,7 @@ import br.com.alura.microservice.fornecedor.model.Pedido;
 import br.com.alura.microservice.fornecedor.service.PedidoService;
 
 @RestController
-@RequestMapping("pedido")
+@RequestMapping("/pedido")
 public class PedidoController {
 
 	@Autowired
