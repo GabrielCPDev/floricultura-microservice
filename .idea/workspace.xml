@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7eb7219-a9dd-4dea-9721-cc62af49064e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/dto/CompraDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/dto/CompraDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/model/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/model/Compra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/service/CompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/service/CompraService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,11 @@
       <recent name="br.com.alura.microservice.loja.client" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -75,7 +79,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransportadorApplication">
+  <component name="RunManager" selected="Application.ZuulApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.config.ConfigServerApplication" />
       <module name="config-server" />
@@ -128,8 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gabriel.miroservice.zuul.ZuulApplication" />
+      <module name="zull" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabriel.miroservice.zuul.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZuulApplication" />
         <item itemvalue="Application.LojaApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
