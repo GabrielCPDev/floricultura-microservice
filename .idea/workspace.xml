@@ -8,6 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/FornecedorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/java/br/com/alura/microservice/fornecedor/FornecedorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loja/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/LojaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/LojaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zull/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zull/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,13 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projetos/floricultura-microservice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/projetos/floricultura-microservice",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.alura.microservice.loja.model" />
@@ -79,7 +89,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZuulApplication">
+  <component name="RunManager" selected="Application.AuthApplication">
+    <configuration name="AuthApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gabriel.microservice.auth.AuthApplication" />
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabriel.microservice.auth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.config.ConfigServerApplication" />
       <module name="config-server" />
@@ -119,19 +142,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportadorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.transportador.TransportadorApplication" />
-      <module name="transportador" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.microservice.transportador.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gabriel.miroservice.zuul.ZuulApplication" />
       <module name="zull" />
@@ -147,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuthApplication" />
         <item itemvalue="Application.ZuulApplication" />
         <item itemvalue="Application.LojaApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="Application.TransportadorApplication" />
       </list>
     </recent_temporary>
   </component>
