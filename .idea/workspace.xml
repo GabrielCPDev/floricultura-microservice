@@ -4,75 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a098599b-a7de-4410-8b3a-13908c3154d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/floricultura-microservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/floricultura-microservice.iml" afterDir="false" />
+    <list default="true" id="a7eb7219-a9dd-4dea-9721-cc62af49064e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/gabriel/microservice/config/ConfigServerApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/gabriel/microservice/config/ConfigServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/gabriel/microservice/eurekaserver/EurekaServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/test/java/com/gabriel/microservice/eurekaserver/EurekaServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/FornecedorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/controllers/InfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/dto/ItemPedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/dto/ReservaDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/entities/InfoFornecedor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/entities/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/entities/PedidoItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/entities/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/entities/enums/PedidoStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/repositories/InfoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/repositories/PedidoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/repositories/ProdutoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/services/InfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/services/PedidoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/java/com/gabriel/microservice/fornecedor/services/ProdutosService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fornecedor/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fornecedor/src/test/java/com/gabriel/microservice/fornecedor/FornecedorApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/loja/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/loja/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/loja/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/loja/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/loja/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/loja/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/LojaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/client/FornecedorClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/controllers/CompraController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/entities/dtos/CompraDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/entities/dtos/EnderecoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/entities/dtos/InfoFornecedorDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/entities/dtos/ItemCompraDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/java/com/gabriel/loja/services/CompraService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/loja/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/model/Compra.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/model/Compra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/service/CompraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/loja/src/main/java/br/com/alura/microservice/loja/service/CompraService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +45,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2BneOVjc8H4eYpdka9KeRY9sYtI" />
+  <component name="ProjectId" id="2CB1G1bnAIq45sA013Gc3MHTWQF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -93,20 +57,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/projetos/dsmeta/backend&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/projetos/floricultura-microservice&quot;
   }
 }</component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn package" />
-      <command value="mvn clean" />
-      <command value="mvn  install" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.alura.microservice.loja.client" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MavenRunConfiguration" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LojaApplication">
+  <component name="RunManager" selected="Application.TransportadorApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.config.ConfigServerApplication" />
       <module name="config-server" />
@@ -133,19 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FornecedorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.fornecedor.FornecedorApplication" />
-      <module name="fornecedor" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.microservice.fornecedor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LojaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.loja.LojaApplication" />
       <module name="loja" />
@@ -159,17 +113,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FornecedorApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="fornecedor" />
+    <configuration name="TransportadorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.transportador.TransportadorApplication" />
+      <module name="transportador" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.alura.microservice.fornecedor.*" />
+          <option name="PATTERN" value="br.com.alura.microservice.transportador.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.com.alura.microservice.fornecedor" />
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.microservice.fornecedor.FornecedorApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,21 +129,20 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.LojaApplication" />
-        <item itemvalue="Application.FornecedorApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
-        <item itemvalue="JUnit.FornecedorApplicationTests" />
+        <item itemvalue="Application.TransportadorApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a098599b-a7de-4410-8b3a-13908c3154d9" name="Changes" comment="" />
-      <created>1657546246543</created>
+      <changelist id="a7eb7219-a9dd-4dea-9721-cc62af49064e" name="Changes" comment="" />
+      <created>1658261069715</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657546246543</updated>
+      <updated>1658261069715</updated>
     </task>
     <servers />
   </component>
